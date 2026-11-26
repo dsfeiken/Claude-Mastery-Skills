@@ -20,7 +20,7 @@ Deze skill beoordeelt een prompt en geeft er een cijfer aan, zodat iemand ziet w
 
 ## De rubriek
 
-Vijf onderdelen van elk 20 punten. Geef per onderdeel alleen 0, 5, 10, 15 of 20 punten, en kies het anker dat het dichtst in de buurt komt. Halve punten en tussenscores maken de beoordeling onbetrouwbaar: dezelfde prompt moet morgen ongeveer hetzelfde cijfer krijgen.
+Vijf onderdelen van elk 20 punten. Geef per onderdeel alleen 0, 5, 10, 15 of 20 punten, en kies het anker dat het dichtst in de buurt komt. Bij het laagste anker geef je 0 als het onderdeel helemaal ontbreekt, en 5 als er een kleine aanzet is. Halve punten en tussenscores maken de beoordeling onbetrouwbaar: dezelfde prompt moet morgen ongeveer hetzelfde cijfer krijgen.
 
 ### 1. Opdracht (20)
 Staat er één heldere taak, of moet Claude raden wat er precies moet gebeuren?
@@ -46,6 +46,8 @@ Is duidelijk wat eruit moet komen: vorm, lengte en voor wie het bedoeld is?
 - **15** — Twee van de drie
 - **20** — Vorm, lengte én lezer zijn duidelijk
 
+Alleen het soort tekst noemen ("een mail", "een post") telt niet als vorm. Vorm gaat over opbouw of format, zoals "drie alinea's met een opsomming van de wijzigingen".
+
 ### 4. Kwaliteitseisen (20)
 Staat erin wanneer het antwoord goed is, en wat de gebruiker juist niet wil?
 
@@ -63,6 +65,8 @@ Draagt elke zin bij aan het antwoord, of is de prompt opgeblazen?
 - **20** — Elke zin doet werk
 
 Dit onderdeel is er bewust om te voorkomen dat langer schrijven vanzelf een hoger cijfer oplevert. Straf lengte die niets toevoegt af, ook als de rest van de prompt goed is.
+
+Bondig is niet hetzelfde als kort. Een prompt van één of twee zinnen zonder context heeft niets overbodigs, maar ook niets om bondig over te zijn. Geef zo'n prompt hier maximaal 10. Anders scoort een te korte prompt hoger dan de kalibratie hieronder toelaat.
 
 ## Kalibratie
 

@@ -61,6 +61,8 @@ Geef elke kans een score van 1 tot 3 op drie punten en tel ze op (maximaal 9):
 
 Sorteer van hoog naar laag. Bij gelijke score gaat de klus die vaker voorkomt voor.
 
+**Check wat de gebruiker al heeft.** Vraag op welke skills de gebruiker al heeft (in claude.ai met de tool `ListSkills`; laad hem eerst als dat nodig is). Dekt een bestaande skill een kans al, tel die kans dan niet mee als nieuwe skill. Noem hem kort onder de top 10, met de vraag of de bestaande skill de klus goed genoeg doet. Kun je niet zien welke skills er zijn, zeg dat dan in één zin aan het begin van het rapport.
+
 **Kom je niet aan 10 kansen, lever er dan minder.** Vul de lijst nooit aan met zwakke of verzonnen kansen. Een eerlijke top 4 is waardevoller dan een opgevulde top 10. Leg in één zin uit waarom het er minder zijn, bijvoorbeeld omdat de geschiedenis kort is.
 
 ## Stap 5 - Schrijf het rapport
