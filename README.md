@@ -14,6 +14,7 @@ Een skill is een vaste werkinstructie die je één keer aan Claude geeft. Daarna
 | **zes-invalshoeken** | Bekijkt een beslissing of plan van zes kanten en sluit af met een advies. | [zes-invalshoeken.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/zes-invalshoeken.zip) |
 | **skill-kansen-zoeker** | Zoekt in je eerdere chats welke klussen je beter in een skill kunt vastleggen. | [skill-kansen-zoeker.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/skill-kansen-zoeker.zip) |
 | **connector-kansen-zoeker** | Zoekt in je eerdere chats welke systemen je beter aan Claude kunt koppelen. | [connector-kansen-zoeker.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/connector-kansen-zoeker.zip) |
+| **veilig-delen-check** | Checkt vooraf of je bepaalde gegevens veilig met Claude kunt delen, en hoe het veiliger kan. | [veilig-delen-check.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/veilig-delen-check.zip) |
 
 Je kiest zelf welke skills je installeert. Elke skill is een apart ZIP-bestand.
 
@@ -73,6 +74,18 @@ Je kiest zelf welke skills je installeert. Elke skill is een apart ZIP-bestand.
 
 **Nodig:** een betaald abonnement en de instelling "Search and reference chats" aan (zie stap 1).
 
+### Veilig delen check
+
+**Waarvoor:** je twijfelt of je bepaalde gegevens met Claude kunt delen, zoals klantgegevens, personeelsgegevens of vertrouwelijke bedrijfsinformatie. Of dat verstandig is, hangt af van het soort gegevens en van je abonnement.
+
+**Wat je krijgt:** eerst een paar korte vragen, één voor één en met keuzes: welk abonnement je hebt, of de instelling "Help improve Claude" aan staat, en wat voor gegevens het zijn. Daarna een oordeel in drie kleuren (groen, oranje of rood) met uitleg waarom. Bij oranje en rood krijg je een veiligere route naar hetzelfde doel en een herschreven prompt die je zo kunt kopiëren. Elk advies eindigt met een vuistregel die je de volgende keer zelf kunt toepassen. De skill zoekt de actuele regels van Anthropic live op. Het is een inschatting, geen juridisch advies, en het AI-beleid van je eigen organisatie gaat altijd voor.
+
+**Zeg bijvoorbeeld:** "Mag ik een Excel met namen en ziekteverzuim van mijn medewerkers door Claude laten analyseren?"
+
+**Belangrijk:** beschrijf de gegevens, maar plak ze niet. Wat in het gesprek staat, is al gedeeld. Daarom werkt deze check alleen vooraf.
+
+**Nodig:** Web search aan (zie stap 1 hieronder).
+
 ## Installeren in de Claude-app
 
 Duurt ongeveer 5 minuten per skill. Je hebt geen technische kennis nodig. Werkt op claude.ai en in de desktop-app. Gebruik hiervoor een computer, niet je telefoon.
@@ -80,7 +93,7 @@ Duurt ongeveer 5 minuten per skill. Je hebt geen technische kennis nodig. Werkt 
 ### 1. Zet de instellingen aan
 
 - **Voor alle skills:** klik in Claude linksonder op je naam en kies **Settings**. Ga naar **Capabilities** en zet **Create and edit files** aan. Op sommige schermen heet dit "Code execution and file creation". Zonder deze instelling kun je geen skills gebruiken.
-- **Voor de hulpvraag-wegwijzer:** klik in een nieuw gesprek op het **+** onder het invoerveld en kijk of **Web search** aan staat.
+- **Voor de hulpvraag-wegwijzer en de veilig delen check:** klik in een nieuw gesprek op het **+** onder het invoerveld en kijk of **Web search** aan staat.
 - **Voor de skill-kansen-zoeker en de connector-kansen-zoeker:** ga in **Settings** naar **Memory** (in de nieuwere indeling heet dit **Your Claude**) en zet **Search and reference chats** aan. Dit kan alleen met een betaald abonnement.
 
 ### 2. Download de skill

@@ -5,12 +5,12 @@
   },
   "metadata": {
     "description": "Nederlandstalige Claude-skills van Claude Mastery, voor ondernemers die meer uit Claude willen halen",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
       "name": "ondernemers-toolkit",
-      "description": "Zes skills om beter met Claude te werken: de juiste aanpak kiezen, prompts verbeteren, een eerlijke reactie krijgen, een beslissing van zes kanten bekijken en skill- en connector-kansen vinden in je eigen chats",
+      "description": "Zeven skills om beter en veiliger met Claude te werken: de juiste aanpak kiezen, prompts verbeteren, een eerlijke reactie krijgen, een beslissing van zes kanten bekijken, skill- en connector-kansen vinden in je eigen chats en vooraf checken of je gegevens veilig kunt delen",
       "source": "./",
       "strict": false,
       "skills": [
@@ -19,7 +19,8 @@
         "./skills/eerlijke-reactie",
         "./skills/zes-invalshoeken",
         "./skills/skill-kansen-zoeker",
-        "./skills/connector-kansen-zoeker"
+        "./skills/connector-kansen-zoeker",
+        "./skills/veilig-delen-check"
       ]
     }
   ]
