@@ -1,6 +1,6 @@
 # Claude Mastery skills
 
-Gratis Nederlandstalige skills voor Claude, gemaakt door het team van [Claude Mastery](https://claudemastery.nl).
+Gratis Nederlandstalige skills voor Claude, gemaakt door mij voor [Claude Mastery](https://claudemastery.nl).
 
 Een skill is een vaste werkinstructie die je één keer aan Claude geeft. Daarna weet Claude bij elke vergelijkbare vraag hoe jij het wilt hebben. Je hoeft het niet steeds opnieuw uit te leggen.
 
