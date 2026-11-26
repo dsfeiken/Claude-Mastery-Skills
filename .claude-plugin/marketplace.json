@@ -1,0 +1,21 @@
+{
+  "name": "mastery-skills",
+  "owner": {
+    "name": "Claude Mastery"
+  },
+  "metadata": {
+    "description": "Nederlandstalige Claude-skills van Claude Mastery, voor ondernemers die meer uit Claude willen halen",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ondernemers-toolkit",
+      "description": "Adviseert bij elke hulpvraag welke mogelijkheid van Claude de beste aanpak is en welk model daarbij past",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/hulpvraag-wegwijzer"
+      ]
+    }
+  ]
+}
