@@ -5,16 +5,20 @@
   },
   "metadata": {
     "description": "Nederlandstalige Claude-skills van Claude Mastery, voor ondernemers die meer uit Claude willen halen",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "ondernemers-toolkit",
-      "description": "Adviseert bij elke hulpvraag welke mogelijkheid van Claude de beste aanpak is en welk model daarbij past",
+      "description": "Vijf skills om beter met Claude te werken: de juiste aanpak kiezen, prompts verbeteren, een eerlijke reactie krijgen en skill- en connector-kansen vinden in je eigen chats",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/hulpvraag-wegwijzer"
+        "./skills/hulpvraag-wegwijzer",
+        "./skills/promptcoach",
+        "./skills/eerlijke-reactie",
+        "./skills/skill-kansen-zoeker",
+        "./skills/connector-kansen-zoeker"
       ]
     }
   ]
