@@ -8,31 +8,48 @@ Een skill is een vaste werkinstructie die je één keer aan Claude geeft. Daarna
 
 | Skill | Wat het doet | Zeg bijvoorbeeld | Download |
 |---|---|---|---|
-| **hulpvraag-wegwijzer** | Adviseert welke mogelijkheid van Claude het beste past bij je vraag, en wat je eerst moet regelen. | "Wat is de beste aanpak om elke maandag mijn agenda samen te vatten?" | [ZIP](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/hulpvraag-wegwijzer.zip) |
+| **hulpvraag-wegwijzer** | Adviseert welke mogelijkheid van Claude het beste past bij je vraag, en wat je eerst moet regelen. | "Wat is de beste aanpak om elke maandag mijn agenda samen te vatten?" | [hulpvraag-wegwijzer.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/hulpvraag-wegwijzer.zip) |
 
-## Installeren in de Claude-app (aanbevolen)
+## Installeren in de Claude-app
 
-Werkt op claude.ai en in de desktop-app, op alle abonnementen (ook gratis).
+Duurt ongeveer 5 minuten. Je hebt geen technische kennis nodig. Werkt op claude.ai en in de desktop-app, ook met een gratis account. Gebruik hiervoor een computer, niet je telefoon.
 
-1. **Zet bestanden maken aan.** Ga naar *Settings > Capabilities* en zet **Create and edit files** aan (op sommige schermen heet dit "Code execution and file creation"). Zonder deze instelling zie je geen skills.
-2. **Download de skill.** Klik op de downloadlink in de tabel hierboven. Pak het ZIP-bestand niet uit.
-3. **Upload de skill.** Ga naar [claude.ai/customize/skills](https://claude.ai/customize/skills), klik op **+**, kies **Create skill** en daarna **Upload a skill**. Kies het ZIP-bestand.
-4. **Zet de skill aan** in je lijst met skills.
+### 1. Zet twee instellingen aan
 
-Werk je met een Team- of Enterprise-abonnement en zie je geen uploadknop? Dan heeft de beheerder van je organisatie eigen skills uitgezet. Vraag hem of haar om dit aan te zetten.
+- Klik in Claude linksonder op je naam en kies **Settings**. Ga naar **Capabilities** en zet **Create and edit files** aan. Op sommige schermen heet dit "Code execution and file creation". Zonder deze instelling kun je geen skills gebruiken.
+- De hulpvraag-wegwijzer zoekt op internet naar de nieuwste informatie over Claude. Klik in een nieuw gesprek op het **+** onder het invoerveld en kijk of **Web search** aan staat.
 
-## Installeren in Claude Code (voor technische gebruikers)
+### 2. Download de skill
 
-```
-/plugin marketplace add dsfeiken/Claude-Mastery-Skills
-/plugin install ondernemers-toolkit@mastery-skills
-```
+Klik op de link [hulpvraag-wegwijzer.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/hulpvraag-wegwijzer.zip). Het bestand komt in je map Downloads.
 
-Nieuwe versies haal je op met `/plugin marketplace update`.
+> **Werk je op een Mac met Safari?** Dan pakt Safari het bestand soms vanzelf uit, en zie je een map in plaats van een ZIP-bestand. Klik dan met de rechtermuisknop op de map en kies **Comprimeer**. Zo heb je weer een ZIP-bestand.
+
+### 3. Upload de skill
+
+Ga naar [claude.ai/customize/skills](https://claude.ai/customize/skills), klik op **+**, dan op **Create skill** en daarna op **Upload a skill**. Kies het ZIP-bestand uit je map Downloads.
+
+### 4. Zet de skill aan
+
+De skill staat nu in je lijst. Zet het schuifje erachter aan.
+
+### 5. Test of het werkt
+
+Open een nieuw gesprek en typ:
+
+> Wat is de beste manier om elke maandag een overzicht van mijn afspraken te krijgen?
+
+Je krijgt een advies met de kopjes **Aanbevolen aanpak**, **Alternatief** en **Eerst regelen**. Zie je die kopjes, dan werkt de skill.
+
+### Lukt het niet?
+
+- **Je ziet geen Skills-menu.** Dan staat de instelling uit stap 1 nog uit.
+- **Het uploaden mislukt.** Dan heb je waarschijnlijk een map geüpload in plaats van een ZIP-bestand. Zie de tip bij stap 2.
+- **Je werkt via je werkgever (Team of Enterprise) en ziet geen uploadknop.** Dan heeft de beheerder eigen skills uitgezet. Vraag hem of haar om dit aan te zetten.
 
 ## Een nieuwe versie
 
-Als we een skill verbeteren, vervangen we het ZIP-bestand. De downloadlink blijft hetzelfde. In de Claude-app verwijder je dan de oude versie en upload je de nieuwe.
+Als we een skill verbeteren, vervangen we het ZIP-bestand. De downloadlink blijft hetzelfde. Verwijder in Claude de oude versie en upload de nieuwe, zoals in stap 3.
 
 ## Gebruik en licentie
 
@@ -43,3 +60,14 @@ De skills zijn met zorg gemaakt en getest. Claude kan zich anders gedragen dan j
 ## Meer halen uit Claude
 
 Deze skills komen uit de trainingen van Claude Mastery. Daar leer je in twee dagen hoe je Claude gebruikt zoals het bedoeld is, inclusief het maken van je eigen skills. Kijk op [claudemastery.nl](https://claudemastery.nl).
+
+## Voor ontwikkelaars: installeren in Claude Code
+
+Werk je met Claude Code? Dan installeer je alle skills in één keer:
+
+```
+/plugin marketplace add dsfeiken/Claude-Mastery-Skills
+/plugin install ondernemers-toolkit@mastery-skills
+```
+
+Nieuwe versies haal je op met `/plugin marketplace update`.
