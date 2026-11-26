@@ -6,16 +6,16 @@ Een skill is een vaste werkinstructie die je één keer aan Claude geeft. Daarna
 
 ## Wat zit erin
 
-| Skill | Wat het doet | Zeg bijvoorbeeld |
-|---|---|---|
-| **hulpvraag-wegwijzer** | Adviseert welke mogelijkheid van Claude het beste past bij je vraag, en wat je eerst moet regelen. | "Wat is de beste aanpak om elke maandag mijn agenda samen te vatten?" |
+| Skill | Wat het doet | Zeg bijvoorbeeld | Download |
+|---|---|---|---|
+| **hulpvraag-wegwijzer** | Adviseert welke mogelijkheid van Claude het beste past bij je vraag, en wat je eerst moet regelen. | "Wat is de beste aanpak om elke maandag mijn agenda samen te vatten?" | [ZIP](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/hulpvraag-wegwijzer.zip) |
 
 ## Installeren in de Claude-app (aanbevolen)
 
 Werkt op claude.ai en in de desktop-app, op alle abonnementen (ook gratis).
 
 1. **Zet bestanden maken aan.** Ga naar *Settings > Capabilities* en zet **Create and edit files** aan (op sommige schermen heet dit "Code execution and file creation"). Zonder deze instelling zie je geen skills.
-2. **Download de skill.** Ga naar [Releases](../../releases/latest) en download het ZIP-bestand van de skill die je wilt. Pak het bestand niet uit.
+2. **Download de skill.** Klik op de downloadlink in de tabel hierboven. Pak het ZIP-bestand niet uit.
 3. **Upload de skill.** Ga naar [claude.ai/customize/skills](https://claude.ai/customize/skills), klik op **+**, kies **Create skill** en daarna **Upload a skill**. Kies het ZIP-bestand.
 4. **Zet de skill aan** in je lijst met skills.
 
@@ -32,7 +32,7 @@ Nieuwe versies haal je op met `/plugin marketplace update`.
 
 ## Een nieuwe versie
 
-Als we een skill verbeteren, zetten we een nieuw ZIP-bestand bij [Releases](../../releases). In de Claude-app verwijder je dan de oude versie en upload je de nieuwe.
+Als we een skill verbeteren, vervangen we het ZIP-bestand. De downloadlink blijft hetzelfde. In de Claude-app verwijder je dan de oude versie en upload je de nieuwe.
 
 ## Gebruik en licentie
 
