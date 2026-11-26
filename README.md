@@ -11,6 +11,7 @@ Een skill is een vaste werkinstructie die je één keer aan Claude geeft. Daarna
 | **hulpvraag-wegwijzer** | Vertelt welke mogelijkheid van Claude het beste past bij wat je wilt bereiken. | [hulpvraag-wegwijzer.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/hulpvraag-wegwijzer.zip) |
 | **promptcoach** | Geeft je prompt een cijfer en laat zien hoe het beter kan. | [promptcoach.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/promptcoach.zip) |
 | **eerlijke-reactie** | Laat Claude kritisch meedenken in plaats van je naar de mond praten. | [eerlijke-reactie.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/eerlijke-reactie.zip) |
+| **zes-invalshoeken** | Bekijkt een beslissing of plan van zes kanten en sluit af met een advies. | [zes-invalshoeken.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/zes-invalshoeken.zip) |
 | **skill-kansen-zoeker** | Zoekt in je eerdere chats welke klussen je beter in een skill kunt vastleggen. | [skill-kansen-zoeker.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/skill-kansen-zoeker.zip) |
 | **connector-kansen-zoeker** | Zoekt in je eerdere chats welke systemen je beter aan Claude kunt koppelen. | [connector-kansen-zoeker.zip](https://github.com/dsfeiken/Claude-Mastery-Skills/raw/main/downloads/connector-kansen-zoeker.zip) |
 
@@ -43,6 +44,14 @@ Je kiest zelf welke skills je installeert. Elke skill is een apart ZIP-bestand.
 **Wat je krijgt:** een antwoord dat begint bij het zwakste punt, met een alternatief en het concrete risico van jouw aanpak. Claude geeft aan wat zeker is, wat waarschijnlijk is en wat een gok is. Duw je terug zonder nieuw argument, dan blijft Claude bij zijn standpunt. Bij een goed argument verandert hij wel van mening, en zegt hij waarom.
 
 **Zeg bijvoorbeeld:** "Wees eerlijk: wat is het zwakste punt van dit plan?"
+
+### Zes invalshoeken
+
+**Waarvoor:** je staat voor een beslissing of hebt een plan, en wilt het van alle kanten bekijken voordat je kiest.
+
+**Wat je krijgt:** zes korte, strikt gescheiden blikken op je vraag: de feiten, je gevoel, de risico's, de kansen, nieuwe ideeën en tot slot een overzicht. In dat overzicht zie je waar de invalshoeken elkaar tegenspreken, en je krijgt een concreet advies. Kan Claude deelassistenten inzetten, dan werkt elke invalshoek los van de andere, zodat ze elkaar niet beïnvloeden. De werkwijze is gebaseerd op de denkmethode van Edward de Bono.
+
+**Zeg bijvoorbeeld:** "Bekijk vanuit zes invalshoeken of ik een tweede vestiging moet openen."
 
 ### Skill-kansen-zoeker
 
